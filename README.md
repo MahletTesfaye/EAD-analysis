@@ -33,6 +33,32 @@ The EDA process includes the following steps:
    - Correlation heatmaps to understand relationships between variables.
    - Bar plots, box plots, and histograms to visualize key insights.
 5. **Conclusions**: Key takeaways and patterns discovered during the analysis.
+## Features of the Notebook
+
+1. **Data Loading and Cleaning**:
+   - Loading the Dataset: Importing the dataset using seaborn.
+   - Data Cleaning: Handling missing values, and removing or imputing them as necessary.
+   - Descriptive Statistics: Calculating key statistics for each column to summarize the dataset.
+
+2. **Univariate Analysis**:
+   - Analyzes the distribution of individual variables such as `age`, `fare`, `sex`, and `class`.
+   - Includes histograms and count plots for visual representation.
+
+3. **Bivariate Analysis**:
+   - Examines the relationships between two variables.
+   - Uses box plots to visualize `age` and `fare` distributions concerning survival.
+   - Count plots to show survival counts by `sex` and `class`.
+
+4. **Multivariate Analysis**:
+   - Investigates relationships among three or more variables.
+   - Includes plots that display the interaction between `class`, `sex`, and survival rates.
+   - A scatter plot illustrates the relationship between `age`, `fare`, and survival status, differentiated by `sex`.
+
+5. **Conclusion**:
+   - The analysis reveals insights about the survival of Titanic passengers, emphasizing the impact of variables like gender, class, and fare on survival rates.
+   - Females, especially from first and second class, had higher survival rates.
+   - Younger passengers showed a wider range of survival outcomes.
+   - Higher fares were associated with better survival chances, albeit weakly.
 
 ## Requirements
 
