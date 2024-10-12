@@ -46,3 +46,8 @@ You can install the necessary libraries using the following command:
 
 ```bash
 pip install pandas numpy matplotlib seaborn
+```
+## Run in Google Colab
+In this version, the **Colab badge** is included to provide a direct link to open the notebook in Google Colab, which is a convenient option for running Jupyter notebooks without any local setup. You can adjust the Colab link accordingly if needed, based on where the notebook is hosted.
+
+
